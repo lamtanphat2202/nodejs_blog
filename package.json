@@ -23,11 +23,13 @@
     "type": "commonjs",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon --inspect index.js",
+        "start": "nodemon --inspect src/index.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "dependencies": {
-        "express": "^5.1.0"
+        "express": "^5.1.0",
+        "express-handlebars": "^8.0.3",
+        "morgan": "^1.10.1"
     },
     "devDependencies": {
         "nodemon": "^3.1.10"
